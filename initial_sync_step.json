@@ -13,7 +13,7 @@
                   "type" : "DIRECT_LINK",
                   "request":{
                      "apiEndPoint":{
-                        "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/sync_process.json",
+                        "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_process.json",
                         "type":"GET"
                      }
                   }
