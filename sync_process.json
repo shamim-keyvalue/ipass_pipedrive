@@ -6,7 +6,7 @@
             "processingText": "Syncing first 10 customers and their subscriptions",
             "request" : {
                "apiEndPoint":{
-                  "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_result.json",
+                  "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_result.json",
                   "type":"GET"
                }
             }
