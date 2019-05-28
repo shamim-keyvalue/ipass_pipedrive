@@ -12,7 +12,7 @@
             ],
             "request" : {
                "apiEndPoint":{
-                  "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/updated_card.json",
+                  "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/updated_card.json",
                   "type":"GET"
                }
             }
