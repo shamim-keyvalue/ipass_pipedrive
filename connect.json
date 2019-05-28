@@ -1,0 +1,66 @@
+{
+    "listContent":[
+    	"ActiveCampaign lets you send personalized messages, newsletters, automated follow-ups to customers. You can also customize messages, segment your contacts to automate emails, manage your pipelines, organize customer data, and more.",
+    	"By connecting Chargebee with ActiveCampaign, you can automatically synchronize your subscription data to ActiveCampaign. This will help you create customized campaigns targeting your customers"
+    ],
+    "docUrl":"",
+    "signupUrl":"",
+    "button":{
+	"id":"credentials",
+	"display" : "Connect",
+	"icon" : "ARROW",
+        "buttonLook":"FILLED",
+	"type" : "POP_UP",
+	"popUp":{  
+	   "inputFields":[  
+	      {  
+		 "dispName":"Base Url",
+		 "req":"true",
+		 "type":"TEXT",
+		 "id":"text",
+		 "placeholder":"EG: ABC.ACTIVEHOSTED.COM "
+	      },
+	      {  
+		 "dispName":"API Secret",
+		 "req":"true",
+		 "type":"PASSWORD",
+		 "id":"password",
+		 "placeholder":"eg: 1233asfsdf23434343434"
+	      },
+	      {  
+		 "req":"true",
+		 "type":"CHECKBOX",
+		 "id":"checkbox1",
+		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's Terms of Service, Consent Policy, and Privacy Policy."
+	      },
+	      {  
+		 "dispName":"API Secret",
+		 "req":"true",
+		 "type":"CHECKBOX",
+		 "id":"checkbox2",
+		 "desc":"I agree to the Chargebee's terms and conditions"
+	      }
+	   ],
+	   "message":{
+	      "message":"You can get your Base URL and API secret from ActiveCampaign by navigating to Settings > Developer"
+	   },
+	   "title":"Connect to ActiveCampaign",
+	   "submitButton":"Connect",
+	   "cancelButton":"Dismiss",
+	   "description":"Specify your ActiveCampaign Base URL and API secret",
+	   "advance":"true",
+	   "type":"INPUT",
+	   "apiEndPoint":{
+		"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect_resp.json",
+		"type":"GET",
+	   	"headers":{
+			"Authorization":"sfsfsdffadssd",
+			"Elements-Formula-Instance-Id":"sfsfsdafsd"
+		},
+	   	"input":{
+			"id":"chargebee"
+		}
+	   }
+	}
+    }
+}

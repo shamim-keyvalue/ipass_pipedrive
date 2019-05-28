@@ -1,0 +1,22 @@
+{
+   "cards" : [
+      {
+         "id" : "check2",
+         "card": {
+            "type" : "PROCESSING",
+            "processingText": "Validating your Chargebee data",
+            "listHeading":"We'll verify if:",
+            "listContent" : [
+               "Email address exists for all customers in Chargebee",
+               "Subscription exists for all customers in Chargebee"
+            ],
+            "request" : {
+               "apiEndPoint":{
+                  "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/updated_card.json",
+                  "type":"GET"
+               }
+            }
+         }
+      }
+   ]
+}

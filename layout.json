@@ -1,0 +1,46 @@
+{
+   "logo":"/third_party/cn-xero.png",
+   "integDispName":"ActiveCampaign",
+   "subStepList":[
+      {
+         "stepName":"Connect",
+         "stepId":"connect",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect.json"
+         }
+      },
+      {
+         "stepName":"Data Validation",
+         "stepId":"step_1",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/validation_step.json"
+         }
+      },
+      {
+         "stepName":"Configure Sync Preferences ",
+         "stepId":"step_2",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/mapping_step.json"
+         }
+      },
+      {
+         "stepName":"Run Initial Sync",
+         "stepId":"step_3",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/initial_sync_step.json"
+         }
+      },
+      {
+         "stepName":"Final step",
+         "stepId":"completed",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/final.json"
+         }
+      }
+   ]
+}

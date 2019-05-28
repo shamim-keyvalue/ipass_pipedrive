@@ -1,0 +1,21 @@
+{
+	"icon":"/third_party/cn-xero.png",
+	"syncErrors":[
+		{
+			"card": {
+			    "type" : "ACTION",
+			    "heading" : "You've ignored errors found during data validation.",
+			    "icon" : "WARNING",
+			}
+		}
+	],
+	"overview":[
+		{
+			"card": {
+			    "type" : "ACTION",
+			    "heading" : "You've ignored errors found during data validation.",
+			    "icon" : "WARNING",
+			}
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+   "cards": [
+      {
+         "id" : "check2",
+         "card": {
+            "type" : "ACTION",
+            "heading" : "We found the following errors during data validation",
+            "listContent" : [
+               "Email address is unavailable for 3 customers in Chargebee",
+               "Subscription is unavailable for 8 customers in Chargebee"
+            ],
+            "icon" : "WARNING",
+            "buttons" :[
+               {
+                  "id":"direct",
+                  "display" : "View Error CSV",
+                  "icon" : "ARROW",
+                  "type" : "DIRECT_LINK"
+               },
+               {
+                  "id":"confirmation",
+                  "display" : "Ignore errors",
+                  "icon" : "CLOSE",
+                  "type" : "POP_UP",
+                  "popUp":{
+                     "type":"SIMPLE",
+                     "title":"Are you sure you want to ignore the errors?",
+                     "submitButton":"Yes, go ahead",
+                     "cancelButton":"Dismiss",
+                     "description":"Some of your subscription data may not be synced with ActiveCampaign.",
+                     "apiEndPoint":{
+                        "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/final_updated_card.json",
+                        "type":"GET"
+                     }
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}

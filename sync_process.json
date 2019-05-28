@@ -1,0 +1,17 @@
+{
+   "cards":[
+      {
+         "card": {
+            "type" : "PROCESSING",
+            "processingText": "Syncing first 10 customers and their subscriptions",
+            "request" : {
+               "apiEndPoint":{
+                  "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/sync_result.json",
+                  "type":"GET"
+               }
+            }
+         },
+         "id" : "check2",
+      } 
+   ]
+}

@@ -1,0 +1,110 @@
+{
+   "cards" : [
+      {
+         "card": {
+            "type" : "INPUT",
+            "params": [
+            	{  
+			         "dispName":"Choose the ActiveCampaign list to sync customer and subscription data with ",
+			         "req":"true",
+			         "type":"DROPDOWN",
+			         "id":"dropdown1",
+			         "allowedValues":{
+			            "option1":"My List 2",
+			            "option2":"My List 3"
+			         }
+			      }
+            ]
+         },
+         "id" : "check2",
+        "isCardDone":"true"
+      },
+		{
+         "card": {
+            "type" : "INPUT",
+            "params": [
+            	{  
+			         "dispName":"Choose what happens when a customer is deleted in Chargebee",
+                  "desc":"You can choose to remove the customer from ActiveCampaign or mark them as 'Deleted'.",
+			         "req":"true",
+			         "type":"DROPDOWN",
+			         "id":"dropdown2",
+			         "allowedValues":{
+			            "option1":"Mark as Deleted",
+			            "option2":"Remove Customer"
+			         },
+		         	"defaultVal":"option2"
+		      	}
+            ]
+         },
+         "id" : "check2",
+        "isCardDone":"true"
+      },
+		{
+         "card": {
+            "type" : "INPUT",
+            "params": [
+            	{		  
+			         "dispName":"Sync Customers who have gifted subscriptions",
+                  "desc":"Applicable if you have enabled gift subscriptions in Chargebee",
+			         "req":"true",
+			         "type":"TOGGLE",
+			         "id":"toggle"
+			      }
+            ]
+         },
+         "id" : "check3",
+        "isCardDone":"true"
+      },
+		{
+         "card": {
+            "type" : "INPUT",
+            "params": [
+            	{		  
+			         "dispName":"Map Custom fields from Chargebee to ActiveCampaign",
+			         "req":"true",
+			         "type":"TOGGLE",
+			         "id":"toggle"
+			      },
+               {  
+			         "dispName":"Subscription fields",
+			         "req":"true",
+			         "type":"ACTIONDROPDOWN",
+			         "id":"dropdown3",
+			         "allowedValues":{
+			            "option1":"Checkbox label",
+			            "option2":"Checkbox label",
+			            "option3":"Checkbox label",
+			            "option4":"Checkbox label",
+			            "option5":"Checkbox label",
+			            "option6":"Checkbox label",
+			         }
+			      },               
+               {  
+			         "dispName":"Cubscription fields",
+			         "req":"true",
+			         "type":"ACTIONDROPDOWN",
+			         "id":"dropdown4",
+			         "allowedValues":{
+			            "option1":"Checkbox label",
+			            "option2":"Checkbox label",
+			            "option3":"Checkbox label"
+			         }
+			      },               
+               {  
+			         "dispName":"Custom field",
+			         "req":"true",
+			         "type":"ACTIONDROPDOWN",
+			         "id":"dropdown5",
+			         "allowedValues":{
+			            "option1":"Checkbox label",
+			            "option2":"Checkbox label"
+			         }
+			      }               
+            ]
+         },
+         "id" : "check4",
+        "isCardDone":"true"
+      }
+    ]
+}
