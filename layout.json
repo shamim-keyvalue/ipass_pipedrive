@@ -15,7 +15,7 @@
          "stepId":"step_1",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/validation_step.json"
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/validation_step.json"
          }
       },
       {
@@ -23,7 +23,7 @@
          "stepId":"step_2",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/mapping_step.json"
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/mapping_step.json"
          }
       },
       {
@@ -31,7 +31,7 @@
          "stepId":"step_3",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/initial_sync_step.json"
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/initial_sync_step.json"
          }
       },
       {
@@ -39,7 +39,7 @@
          "stepId":"completed",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/final.json"
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/final.json"
          }
       }
    ]
