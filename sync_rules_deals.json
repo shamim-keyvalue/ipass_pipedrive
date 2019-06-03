@@ -2,6 +2,7 @@
    "cards" : [
       {
          "card": {
+            "listHeading": "Choose how you'd like to handle deals in Pipedrive when",
             "type" : "INPUT",
             "params": [
                {  
