@@ -20,23 +20,31 @@
       },
       {
          "stepName":"Sync Rules for Deals",
-         "stepId":"step_1",
+         "stepId":"step_2",
          "apiEndPoint": {
             "type":"GET",
             "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_rules_deals.json"
          }
       },
       {
-         "stepName":"Configure Sync Preferences ",
-         "stepId":"step_2",
+         "stepName":"Sync Fields",
+         "stepId":"step_3",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/mapping_step.json"
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_fields.json"
+         }
+      },
+      {
+         "stepName":"Data Validation",
+         "stepId":"step_4",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/data_validation.json"
          }
       },
       {
          "stepName":"Run Initial Sync",
-         "stepId":"step_3",
+         "stepId":"step_5",
          "apiEndPoint": {
             "type":"GET",
             "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/mapping_step.json"
