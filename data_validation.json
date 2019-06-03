@@ -2,6 +2,7 @@
    "cards" : [
       {
          "id" : "check2",
+         "showRetry":"false",
          "card": {
             "type" : "PROCESSING",
             "processingText": "Validating your Chargebee data",
@@ -11,6 +12,7 @@
                "Subscription exists for all customers in Chargebee"
             ],
             "request" : {
+               "type":"DOC_READY_GET_CARD",
                "apiEndPoint":{
                   "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/updated_card.json",
                   "type":"GET"
@@ -18,5 +20,47 @@
             }
          }
       }
-   ]
+   ],
+   "proceed":{
+      "id":"proceed",
+      "display" : "Proceed",
+      "icon" : "ARROW",
+      "buttonLook":"FILLED",
+      "type" : "DIRECT_LINK",
+      "request":{
+         "type":"ON_CLICK_SEND_INPUT",
+         "apiEndPoint":{
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json",
+            "type":"GET",
+            "headers":{
+               "Authorization":"sfsfsdffadssd",
+               "Elements-Formula-Instance-Id":"sfsfsdafsd"
+            },
+            "input":{
+               "id":"chargebee"
+            }
+         }
+      }
+    },
+    "retry":{
+      "id":"retry",
+      "display" : "Retry Data Validation",
+      "icon" : "ARROW",
+      "buttonLook":"FILLED",
+      "type" : "DIRECT_LINK",
+      "request":{
+         "type":"ON_CLICK_DEFAULT_ACTION",
+         "apiEndPoint":{
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json",
+            "type":"GET",
+            "headers":{
+               "Authorization":"sfsfsdffadssd",
+               "Elements-Formula-Instance-Id":"sfsfsdafsd"
+            },
+            "input":{
+               "id":"chargebee"
+            }
+         }
+      }
+    }
 }
