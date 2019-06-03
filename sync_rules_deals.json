@@ -4,17 +4,6 @@
          "card": {
             "type" : "INPUT",
             "params": [
-            	{  
-			         "dispName":"Choose how you'd like to handle deals in Pipedrive when"
-			    }
-            ]
-         },
-         "id" : "check1"
-      },
-      {
-         "card": {
-            "type" : "INPUT",
-            "params": [
                {  
                  "dispName":"... subscription is created",
                  "req":"true",
