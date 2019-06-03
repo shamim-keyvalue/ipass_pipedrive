@@ -19,7 +19,7 @@
                  "dispName":"... subscription is created",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown1",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Create a deal",
                     "option2":"Update a deal",
@@ -41,7 +41,7 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown3",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
@@ -51,7 +51,7 @@
                  "dispName":"... subscription items are updated",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown4",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Create a deal",
                     "option2":"Update a deal",
@@ -63,7 +63,7 @@
                  "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown5",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Pipeline 1"
                  },
@@ -73,7 +73,7 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown6",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
@@ -83,7 +83,7 @@
                  "dispName":"... subscription is deleted",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown7",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Create a deal",
                     "option2":"Update a deal",
@@ -95,7 +95,7 @@
                  "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown8",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Pipeline 1"
                  },
@@ -105,7 +105,7 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown9",
+                 "id":"dropdown2",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
@@ -122,7 +122,7 @@
 		         	"dispName":"When a customer is deleted in Chargebee",
 			        "req":"true",
 			        "type":"DROPDOWN",
-			        "id":"dropdown10",
+			        "id":"dropdown2",
 			        "allowedValues":{
 			           "option1":"Mark as Deleted",
 			           "option2":"Remove Customer",
