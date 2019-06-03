@@ -5,229 +5,83 @@
             "type" : "INPUT",
             "params": [
             	{  
-			         "dispName":"Choose the ActiveCampaign list to sync customer and subscription data with ",
+			         "dispName":"Choose customers you'd like to sync",
 			         "req":"true",
 			         "type":"DROPDOWN",
 			         "id":"dropdown1",
 			         "allowedValues":{
-			            "option1":"My List 2",
-			            "option2":"My List 3"
+			            "option1":"Sync All Customers",
+			            "option2":"Test 1"
 			         }
 			      }
             ]
          },
          "id" : "check1"
       },
-		{
+      {
+         "card": {
+            "type" : "INPUT",
+            "params": [
+            	{		  
+		        	"dispName":"Allow Chargebee to create People in Pipedrive",
+                  	"desc":"By default, existing people, if any, will be updated with the changes made in Chargebee. Disable if you dont want chargebee to create People in Pipedrive",
+			        "req":"true",
+			        "type":"TOGGLE",
+			        "id":"toggle1"
+			     }
+            ]
+         },
+         "card": {
+            "type" : "INPUT",
+            "params": [
+            	{		  
+		        	"dispName":"Allow Chargebee to manage Organization in Pipedrive",
+                  	"desc":"By default, Chargebee customers will be synced as People in Pipedrive. Enable if you want to allow Chargebee to add people to Organization, and create and update Organizations in Pipedrive.",
+			        "req":"true",
+			        "type":"TOGGLE",
+			        "id":"toggle2"
+			     }
+            ]
+         },
          "card": {
             "type" : "INPUT",
             "params": [
             	{  
-			         "dispName":"Choose what happens when a customer is deleted in Chargebee",
-                  "desc":"You can choose to remove the customer from ActiveCampaign or mark them as 'Deleted'.",
-			         "req":"true",
-			         "type":"DROPDOWN",
-			         "id":"dropdown2",
-			         "allowedValues":{
-			            "option1":"Mark as Deleted",
-			            "option2":"Remove Customer"
-			         },
-		         	"defaultVal":"option2"
+		         	"dispName":"When a customer is deleted in Chargebee",
+			        "req":"true",
+			        "type":"DROPDOWN",
+			        "id":"dropdown2",
+			        "allowedValues":{
+			           "option1":"Mark as Deleted",
+			           "option2":"Remove Customer",
+			           "option3":"Do Nothing"
+			        },
+		         	"defaultVal":"option3"
 		      	}
             ]
          },
-         "id" : "check2"
-      },
-		{
-         "card": {
-            "type" : "INPUT",
-            "params": [
-            	{		  
-			         "dispName":"Sync Customers who have gifted subscriptions",
-                  "desc":"Applicable if you have enabled gift subscriptions in Chargebee",
-			         "req":"true",
-			         "type":"TOGGLE",
-			         "id":"toggle1"
-			      }
-            ]
-         },
          "id" : "check3"
-      },
-		{
-         "card": {
-            "type" : "TOGGLE_HIDE_INPUT",
-	   "message":{
-	      "message":"We have already mapped your customer and subscription fields from Chargebee to ActiveCampaign. You can map the custom fields you had created in Chargebee, by enabling this configuration",
-	      "icon":"DANGER_INFO",
-	      "messageLook":"DANGER"
-	    },
-            "params": [
-            	{		  
-			         "dispName":"Map Custom fields from Chargebee to ActiveCampaign",
-			         "req":"true",
-			         "type":"TOGGLE",
-			         "id":"toggle2"
-			      },
-		    {
-		       "dispName":"Subscription fields",
-			"type":"MODELBOX_INPUT_FIELDS",
-		        "id":"modelbox_check1",
-		    	"inputFields":[
-				{  
-			         "type":"SEARCH_CHECK_BOX",
-			         "id":"search",
-			         "checkboxes":[
-			            {  
-					 "type":"CHECKBOX",
-					 "id":"checkbox1",
-					 "desc":"Checkbox label 1"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox2",
-					 "desc":"Checkbox label 2"
-				      }
-			         ]
-			      }
-			]
-		    },
-		    {
-		       "dispName":"Customer fields",
-			"type":"MODELBOX_INPUT_FIELDS",
-		        "id":"modelbox_check2",
-		    	"inputFields":[
-				{  
-			         "type":"SEARCH_CHECK_BOX",
-			         "id":"search2",
-			         "checkboxes":[
-			            {  
-					 "type":"CHECKBOX",
-					 "id":"checkbox3",
-					 "desc":"Checkbox label 1"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox4",
-					 "desc":"Checkbox label 2"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox5",
-					 "desc":"Checkbox label 3"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox6",
-					 "desc":"Checkbox label 4"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox7",
-					 "desc":"Checkbox label 5"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox8",
-					 "desc":"Checkbox label 6"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox9",
-					 "desc":"Checkbox label 7"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox10",
-					 "desc":"Checkbox label 8"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox11",
-					 "desc":"Checkbox label 9"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox12",
-					 "desc":"Checkbox label 10"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox12",
-					 "desc":"Checkbox label 11"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox14",
-					 "desc":"Checkbox label 12"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox15",
-					 "desc":"Checkbox label 13"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox16",
-					 "desc":"Checkbox label 14"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox17",
-					 "desc":"Checkbox label 15"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox18",
-					 "desc":"Checkbox label 16"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox19",
-					 "desc":"Checkbox label 17"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox20",
-					 "desc":"Checkbox label 18"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox21",
-					 "desc":"Checkbox label 19"
-				      },
-				 	{  
-					 "type":"CHECKBOX",
-					 "id":"checkbox22",
-					 "desc":"Checkbox label 20"
-				      }
-			         ]
-			      }
-			]
-		    }
-            ]
-         },
-         "id" : "check4"
       }
     ],
    "proceed":{
-      "id":"proceed",
-      "display" : "Proceed",
-      "icon" : "ARROW",
-      "buttonLook":"FILLED",
-      "type" : "DIRECT_LINK",
-      "request":{
-         "type":"ON_CLICK_SEND_INPUT",
-         "apiEndPoint":{
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect_resp.json",
-            "type":"GET",
-            "headers":{
-               "Authorization":"sfsfsdffadssd",
-               "Elements-Formula-Instance-Id":"sfsfsdafsd"
-            },
-            "input":{
-               "id":"chargebee"
-            }
-         }
-      }
+      	"id":"proceed",
+      	"display" : "Proceed",
+      	"icon" : "ARROW",
+      	"buttonLook":"FILLED",
+      	"type" : "DIRECT_LINK",
+      	"request":{
+     		"type":"ON_CLICK_SEND_INPUT",
+     		"apiEndPoint":{
+            	"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect_resp.json",
+            	"type":"GET",
+            	"headers":{
+               		"Authorization":"sfsfsdffadssd",
+               		"Elements-Formula-Instance-Id":"sfsfsdafsd"
+            	},
+            	"input":{
+               		"id":"chargebee"
+            	}
+         	}
+      	}
     }
 }
