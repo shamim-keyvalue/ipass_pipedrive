@@ -75,13 +75,13 @@
                   "dispName":"When a customer is deleted in Chargebee",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown3",
                  "allowedValues":{
-                    "option1":"Mark as Deleted",
-                    "option2":"Remove Customer",
-                    "option3":"Do Nothing"
+                    "option1":"Do Nothing",
+                    "option2":"Mark 'Person'as 'Deleted'",
+                    "option3":"Mark 'Person' and 'Organization' as 'Deleted'"
                  },
-                  "defaultVal":"option3"
+                  "defaultVal":"option1"
                }
           
             ]
