@@ -4,7 +4,8 @@
          "card": {
             "type" : "INPUT",
             "listHeading": "Choose how you'd like to handle deals in Pipedrive when",
-            "listContent":[
+            "listContent":[{
+               "params": [
                   {  
                     "dispName":"... subscription is created",
                     "req":"true",
@@ -102,6 +103,7 @@
                      "defaultVal":"option1"
                   }
                ]
+            }],
          }
       }
    ],
