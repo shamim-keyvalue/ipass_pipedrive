@@ -21,7 +21,7 @@
                  "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown3",
                  "allowedValues":{
                     "option1":"Pipeline 1"
                  },
@@ -31,7 +31,7 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown4",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
@@ -41,7 +41,7 @@
                  "dispName":"... subscription items are updated",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown5",
                  "allowedValues":{
                     "option1":"Create a deal",
                     "option2":"Update a deal",
@@ -53,7 +53,7 @@
                  "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown6",
                  "allowedValues":{
                     "option1":"Pipeline 1"
                  },
@@ -63,7 +63,7 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown7",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
@@ -73,7 +73,7 @@
                  "dispName":"... subscription is deleted",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown8",
                  "allowedValues":{
                     "option1":"Create a deal",
                     "option2":"Update a deal",
@@ -85,7 +85,7 @@
                  "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown9",
                  "allowedValues":{
                     "option1":"Pipeline 1"
                  },
@@ -95,7 +95,7 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown2",
+                 "id":"dropdown10",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
