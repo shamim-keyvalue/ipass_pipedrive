@@ -2,106 +2,106 @@
    "cards" : [
       {
          "card": {
-            "listHeading": "Choose how you'd like to handle deals in Pipedrive when",
             "type" : "INPUT",
-            "params": [
-               {  
-                 "dispName":"... subscription is created",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Create a deal",
-                    "option2":"Update a deal",
-                    "option3":"Do Nothing"
-                 },
-                  "defaultVal":"option3"
-               },
-               {  
-                 "dispName":" - Choose the pipeline you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Pipeline 1"
-                 },
-                  "defaultVal":"option1"
-               },
-               {  
-                 "dispName":" - Choose the stage you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Stage 1"
-                 },
-                  "defaultVal":"option1"
-               },
-               {  
-                 "dispName":"... subscription items are updated",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Create a deal",
-                    "option2":"Update a deal",
-                    "option3":"Do Nothing"
-                 },
-                  "defaultVal":"option3"
-               },
-               {  
-                 "dispName":" - Choose the pipeline you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Pipeline 1"
-                 },
-                  "defaultVal":"option1"
-               },
-               {  
-                 "dispName":" - Choose the stage you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Stage 1"
-                 },
-                  "defaultVal":"option1"
-               },
-               {  
-                 "dispName":"... subscription is deleted",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Create a deal",
-                    "option2":"Update a deal",
-                    "option3":"Do Nothing"
-                 },
-                  "defaultVal":"option3"
-               },
-               {  
-                 "dispName":" - Choose the pipeline you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Pipeline 1"
-                 },
-                  "defaultVal":"option1"
-               },
-               {  
-                 "dispName":" - Choose the stage you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown2",
-                 "allowedValues":{
-                    "option1":"Stage 1"
-                 },
-                  "defaultVal":"option1"
-               }
-            ]
+            "listHeading": "Choose how you'd like to handle deals in Pipedrive when",
+            "listContent":[
+                  {  
+                    "dispName":"... subscription is created",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Create a deal",
+                       "option2":"Update a deal",
+                       "option3":"Do Nothing"
+                    },
+                     "defaultVal":"option3"
+                  },
+                  {  
+                    "dispName":" - Choose the pipeline you'd like to add this deal to",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Pipeline 1"
+                    },
+                     "defaultVal":"option1"
+                  },
+                  {  
+                    "dispName":" - Choose the stage you'd like to add this deal to",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Stage 1"
+                    },
+                     "defaultVal":"option1"
+                  },
+                  {  
+                    "dispName":"... subscription items are updated",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Create a deal",
+                       "option2":"Update a deal",
+                       "option3":"Do Nothing"
+                    },
+                     "defaultVal":"option3"
+                  },
+                  {  
+                    "dispName":" - Choose the pipeline you'd like to add this deal to",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Pipeline 1"
+                    },
+                     "defaultVal":"option1"
+                  },
+                  {  
+                    "dispName":" - Choose the stage you'd like to add this deal to",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Stage 1"
+                    },
+                     "defaultVal":"option1"
+                  },
+                  {  
+                    "dispName":"... subscription is deleted",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Create a deal",
+                       "option2":"Update a deal",
+                       "option3":"Do Nothing"
+                    },
+                     "defaultVal":"option3"
+                  },
+                  {  
+                    "dispName":" - Choose the pipeline you'd like to add this deal to",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Pipeline 1"
+                    },
+                     "defaultVal":"option1"
+                  },
+                  {  
+                    "dispName":" - Choose the stage you'd like to add this deal to",
+                    "req":"true",
+                    "type":"DROPDOWN",
+                    "id":"dropdown2",
+                    "allowedValues":{
+                       "option1":"Stage 1"
+                    },
+                     "defaultVal":"option1"
+                  }
+               ]
          }
       }
    ],
