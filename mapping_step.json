@@ -13,7 +13,7 @@
 			            "option1":"Sync All Customers",
 			            "option2":"Test 1"
 			         }
-			      }
+			    }
             ]
          },
          "id" : "check1"
@@ -39,7 +39,7 @@
                   	"desc":"By default, Chargebee customers will be synced as People in Pipedrive. Enable if you want to allow Chargebee to add people to Organization, and create and update Organizations in Pipedrive.",
 			        "req":"true",
 			        "type":"TOGGLE",
-			        "id":"toggle2"
+			        "id":"toggle1"
 			     }
             ]
          },
@@ -60,7 +60,7 @@
 		      	}
             ]
          },
-         "id" : "check3"
+         "id" : "check2"
       }
     ],
    "proceed":{
