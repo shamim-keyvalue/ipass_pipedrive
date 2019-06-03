@@ -100,7 +100,25 @@
                     "option1":"Stage 1"
                  },
                   "defaultVal":"option1"
-               }
+               },
+               {  
+                 "dispName":"Choose how you'd like to update deal value in Pipedrive",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown11",
+                 "allowedValues":{
+                    "option1": "Don't update deal value",
+                    "option2": "Update deal value"
+                 },
+                  "defaultVal":"option1"
+               },
+               {       
+               "dispName":"Allow Chargebee to add notes to deals",
+                 "desc":"Enable if you want Chargebee to add notes to deals when changes are made to deal stage or deal value.",
+                 "req":"true",
+                 "type":"TOGGLE",
+                 "id":"toggle1"
+              },
             ]
          }
       }
