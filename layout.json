@@ -11,11 +11,19 @@
          }
       },
       {
-         "stepName":"Data Validation",
+         "stepName":"Sync Rules for Contacts",
          "stepId":"step_1",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/mapping_step.json"
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_rules_contacts.json"
+         }
+      },
+      {
+         "stepName":"Sync Rules for Deals",
+         "stepId":"step_1",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_rules_deals.json"
          }
       },
       {
