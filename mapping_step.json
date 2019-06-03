@@ -72,7 +72,7 @@
       	"request":{
      		"type":"ON_CLICK_SEND_INPUT",
      		"apiEndPoint":{
-            	"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect_resp.json",
+            	"apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json",
             	"type":"GET",
             	"headers":{
                		"Authorization":"sfsfsdffadssd",
