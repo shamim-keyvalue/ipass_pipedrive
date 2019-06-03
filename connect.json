@@ -1,16 +1,15 @@
-
 {
-    "listContent":[
-       "Active Campaign lets you send personalized messages, newsletters, automated follow-ups to customers. You can also customize messages, segment your contacts to automate emails, manage your pipelines, organize customer data, and more.",
-       "By connecting Chargebee with ActiveCampaign, you can automatically synchronize your subscription data to ActiveCampaign. This will help you create customized campaigns targeting your customers"
-   ],
+    "contents":[
+    	"ActiveCampaign lets you send personalized messages, newsletters, automated follow-ups to customers. You can also customize messages, segment your contacts to automate emails, manage your pipelines, organize customer data, and more.",
+    	"By connecting Chargebee with ActiveCampaign, you can automatically synchronize your subscription data to ActiveCampaign. This will help you create customized campaigns targeting your customers. <a href=\"\" target=\"blank\">Learn more</a>"
+    ],
     "docUrl":"",
     "signupUrl":"",
-    "button":{
+    "connect":{
 	"id":"credentials",
 	"display" : "Connect",
 	"icon" : "ARROW",
-    "buttonLook":"FILLED",
+        "buttonLook":"FILLED",
 	"type" : "POP_UP",
 	"popUp":{  
 	   "inputFields":[  
@@ -18,14 +17,14 @@
 		 "dispName":"Base Url",
 		 "req":"true",
 		 "type":"TEXT",
-		 "id":"account",
+		 "id":"text",
 		 "placeholder":"EG: ABC.ACTIVEHOSTED.COM "
 	      },
 	      {  
 		 "dispName":"API Secret",
 		 "req":"true",
 		 "type":"PASSWORD",
-		 "id":"apiToken",
+		 "id":"password",
 		 "placeholder":"eg: 1233asfsdf23434343434"
 	      },
 	      {  
