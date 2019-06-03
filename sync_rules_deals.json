@@ -102,100 +102,74 @@
                   "defaultVal":"option1"
                },
                {  
-                 "dispName":"Choose how you'd like to update deal value in Pipedrive",
+                 "dispName":"... subscription is paused",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown11",
                  "allowedValues":{
-                    "option1": "Don't update deal value",
-                    "option2": "Update deal value"
+                    "option1":"Create a deal",
+                    "option2":"Update a deal",
+                    "option3":"Do Nothing"
                  },
-                  "defaultVal":"option1"
+                  "defaultVal":"option3"
                },
-               {       
-               "dispName":"Allow Chargebee to add notes to deals",
-                 "desc":"Enable if you want Chargebee to add notes to deals when changes are made to deal stage or deal value.",
-                 "req":"true",
-                 "type":"TOGGLE",
-                 "id":"toggle1"
-              },
-            ]
-         }
-      },
-      {
-         "card": {
-            "heading": "headingggg",
-            "type" : "INPUT",
-            "params": [
                {  
-                 "dispName":"... invoice is created",
+                 "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown12",
                  "allowedValues":{
-                    "option1":"Create a deal",
-                    "option2":"Update a deal",
-                    "option3":"Do Nothing"
+                    "option1":"Pipeline 1"
                  },
-                  "defaultVal":"option3"
+                  "defaultVal":"option1"
                },
                {  
-                 "dispName":" - Choose the pipeline you'd like to add this deal to",
+                 "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown13",
                  "allowedValues":{
-                    "option1":"Pipeline 1"
+                    "option1":"Stage 1"
                  },
                   "defaultVal":"option1"
                },
                {  
-                 "dispName":" - Choose the stage you'd like to add this deal to",
+                 "dispName":"... subscription is resumed",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown14",
                  "allowedValues":{
-                    "option1":"Stage 1"
+                    "option1":"Create a deal",
+                    "option2":"Update a deal",
+                    "option3":"Do Nothing"
                  },
-                  "defaultVal":"option1"
+                  "defaultVal":"option3"
                },
                {  
-                 "dispName":"... invoice is deleted",
+                 "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown15",
                  "allowedValues":{
-                    "option1":"Create a deal",
-                    "option2":"Update a deal",
-                    "option3":"Do Nothing"
+                    "option1":"Pipeline 1"
                  },
-                  "defaultVal":"option3"
+                  "defaultVal":"option1"
                },
                {  
-                 "dispName":" - Choose the pipeline you'd like to add this deal to",
+                 "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown16",
                  "allowedValues":{
-                    "option1":"Pipeline 1"
-                 },
-                  "defaultVal":"option1"
-               },
-               {  
-                 "dispName":" - Choose the stage you'd like to add this deal to",
-                 "req":"true",
-                 "type":"DROPDOWN",
-                 "id":"dropdown17",
-                 "allowedValues":{
                     "option1":"Stage 1"
                  },
                   "defaultVal":"option1"
                },
                {  
-                 "dispName":"... invoice is paid",
+                 "dispName":"... subscription is cancelled",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown18",
+                 "id":"dropdown17",
                  "allowedValues":{
                     "option1":"Create a deal",
                     "option2":"Update a deal",
@@ -207,7 +181,7 @@
                  "dispName":" - Choose the pipeline you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown19",
+                 "id":"dropdown18",
                  "allowedValues":{
                     "option1":"Pipeline 1"
                  },
@@ -217,14 +191,14 @@
                  "dispName":" - Choose the stage you'd like to add this deal to",
                  "req":"true",
                  "type":"DROPDOWN",
-                 "id":"dropdown20",
+                 "id":"dropdown19",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
                   "defaultVal":"option1"
                },
                {  
-                 "dispName":"... invoice is voided",
+                 "dispName":"... subscription is <b>reactivated</b>",
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown20",
@@ -250,6 +224,160 @@
                  "req":"true",
                  "type":"DROPDOWN",
                  "id":"dropdown22",
+                 "allowedValues":{
+                    "option1":"Stage 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":"Choose how you'd like to update deal value in Pipedrive",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown23",
+                 "allowedValues":{
+                    "option1": "Don't update deal value",
+                    "option2": "Update deal value"
+                 },
+                  "defaultVal":"option1"
+               },
+               {       
+               "dispName":"Allow Chargebee to add notes to deals",
+                 "desc":"Enable if you want Chargebee to add notes to deals when changes are made to deal stage or deal value.",
+                 "req":"true",
+                 "type":"TOGGLE",
+                 "id":"toggle1"
+              },
+            ]
+         }
+      },
+      {
+         "card": {
+            "heading": "headingggg",
+            "type" : "INPUT",
+            "params": [
+               {  
+                 "dispName":"... invoice is created",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown24",
+                 "allowedValues":{
+                    "option1":"Create a deal",
+                    "option2":"Update a deal",
+                    "option3":"Do Nothing"
+                 },
+                  "defaultVal":"option3"
+               },
+               {  
+                 "dispName":" - Choose the pipeline you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown25",
+                 "allowedValues":{
+                    "option1":"Pipeline 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":" - Choose the stage you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown26",
+                 "allowedValues":{
+                    "option1":"Stage 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":"... invoice is deleted",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown27",
+                 "allowedValues":{
+                    "option1":"Create a deal",
+                    "option2":"Update a deal",
+                    "option3":"Do Nothing"
+                 },
+                  "defaultVal":"option3"
+               },
+               {  
+                 "dispName":" - Choose the pipeline you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown28",
+                 "allowedValues":{
+                    "option1":"Pipeline 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":" - Choose the stage you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown29",
+                 "allowedValues":{
+                    "option1":"Stage 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":"... invoice is paid",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown30",
+                 "allowedValues":{
+                    "option1":"Create a deal",
+                    "option2":"Update a deal",
+                    "option3":"Do Nothing"
+                 },
+                  "defaultVal":"option3"
+               },
+               {  
+                 "dispName":" - Choose the pipeline you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown31",
+                 "allowedValues":{
+                    "option1":"Pipeline 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":" - Choose the stage you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown32",
+                 "allowedValues":{
+                    "option1":"Stage 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":"... invoice is voided",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown33",
+                 "allowedValues":{
+                    "option1":"Create a deal",
+                    "option2":"Update a deal",
+                    "option3":"Do Nothing"
+                 },
+                  "defaultVal":"option3"
+               },
+               {  
+                 "dispName":" - Choose the pipeline you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown34",
+                 "allowedValues":{
+                    "option1":"Pipeline 1"
+                 },
+                  "defaultVal":"option1"
+               },
+               {  
+                 "dispName":" - Choose the stage you'd like to add this deal to",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown35",
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
