@@ -1,54 +1,64 @@
 {
- "cardStatus": "CONNECT-SUCCESS",
-   "cardResult": {
-       "cards": {
-   "contents": [
-       "Active Campaign lets you send personalized messages, newsletters, automated follow-ups to customers. You can also customize messages, segment your contacts to automate emails, manage your pipelines, organize customer data, and more.",
-       "",
-       "By connecting Chargebee with ActiveCampaign, you can automatically synchronize your subscription data to ActiveCampaign. This will help you create customized campaigns targeting your customers"
-   ],
-   "docUrl": "",
-   "signupUrl": "",
-   "connect": {
-       "id": "credentials",
-       "display": "Connect",
-       "icon": "ARROW",
-       "buttonLook": "FILLED",
-       "type": "POP_UP",
-       "popUp": {
-           "inputFields": [{
-                   "dispName": "API Access URL",
-                   "req": "true",
-                   "type": "TEXT",
-                   "id": "account",
-                   "placeholder": "eg: https://abc.api-us1.com"
-               },
-               {
-                   "dispName": "API Access Key",
-                   "req": "true",
-                   "type": "PASSWORD",
-                   "id": "apiToken",
-                   "placeholder": "eg: 1233asfsdf23434343434"
-               },
-               {
-                   "req": "true",
-                   "type": "CHECKBOX",
-                   "id": "checkbox1",
-                   "desc": "I understand that, ActiveCampaign may store my customer and subscription data. (Please refer to ActiveCampaign’s <a href='https://www.activecampaign.com/terms-of-service'>Terms of Service</a>, <a href='https://www.activecampaign.com/consent-policy'>Consent policy</a> and <a href='https://www.activecampaign.com/privacy-policy'>Privacy policy</a>)."
-               }
-           ],
-           "message": {
-               "message": "You can find your API Access URL and API Access Key from ActiveCampaign by navigating to Settings > Developer section"
-           },
-           "title": "Connect to ActiveCampaign",
-           "submitButton": "Connect",
-           "cancelButton": "Dismiss",
-           "description": "Specify your ActiveCampaign Base URL and API secret",
-           "advance": "true",
-           "type": "INPUT",
-           "apiEndPoint": {}
-       }
-   }
-}
-   }
+    "cardStatus": "CONNECT-SUCCESS",
+    "cardResult": {
+        "cards": {
+            "contents": [
+            "Active Campaign lets you send personalized messages, newsletters, automated follow-ups to customers. You can also customize messages, segment your contacts to automate emails, manage your pipelines, organize customer data, and more.",
+            "",
+            "By connecting Chargebee with ActiveCampaign, you can automatically synchronize your subscription data to ActiveCampaign. This will help you create customized campaigns targeting your customers"
+            ],
+            "docUrl": "",
+            "signupUrl": "",
+            "connect": {
+                "id": "credentials",
+                "display": "Connect",
+                "icon": "ARROW",
+                "buttonLook": "FILLED",
+                "type": "POP_UP",
+                "popUp": {
+                    "inputFields": [{
+                            "dispName": "API Access URL",
+                            "req": "true",
+                            "type": "TEXT",
+                            "id": "account",
+                            "placeholder": "eg: https://abc.api-us1.com"
+                        },
+                        {
+                            "dispName": "API Access Key",
+                            "req": "true",
+                            "type": "PASSWORD",
+                            "id": "apiToken",
+                            "placeholder": "eg: 1233asfsdf23434343434"
+                        },
+                        {
+                            "req": "true",
+                            "type": "CHECKBOX",
+                            "id": "checkbox1",
+                            "desc": "I understand that, ActiveCampaign may store my customer and subscription data. (Please refer to ActiveCampaign’s <a href='https://www.activecampaign.com/terms-of-service'>Terms of Service</a>, <a href='https://www.activecampaign.com/consent-policy'>Consent policy</a> and <a href='https://www.activecampaign.com/privacy-policy'>Privacy policy</a>)."
+                        }
+                    ],
+                    "message": {
+                        "message": "You can find your API Access URL and API Access Key from ActiveCampaign by navigating to Settings > Developer section"
+                    },
+                    "title": "Connect to ActiveCampaign",
+                    "submitButton": "Connect",
+                    "cancelButton": "Dismiss",
+                    "description": "Specify your ActiveCampaign Base URL and API secret",
+                    "advance": "true",
+                    "type": "INPUT",
+                    "apiEndPoint":{
+                        "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect_resp.json",
+                        "type":"GET",
+                        "headers":{
+                            "Authorization":"sfsfsdffadssd",
+                            "Elements-Formula-Instance-Id":"sfsfsdafsd"
+                        },
+                        "input":{
+                            "id":"chargebee"
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
