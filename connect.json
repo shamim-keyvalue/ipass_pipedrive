@@ -44,7 +44,7 @@
 	   "advance":"true",
 	   "type":"INPUT",
 	   "apiEndPoint":{
-		"apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/mapping_step.json",
+		"apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_rules_contacts.json",
 		"type":"GET",
 	   	"headers":{
 			"Authorization":"sfsfsdffadssd",
