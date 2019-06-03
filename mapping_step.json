@@ -31,35 +31,6 @@
 			     }
             ]
          },
-         "card": {
-            "type" : "INPUT",
-            "params": [
-            	{		  
-		        	"dispName":"Allow Chargebee to manage Organization in Pipedrive",
-                  	"desc":"By default, Chargebee customers will be synced as People in Pipedrive. Enable if you want to allow Chargebee to add people to Organization, and create and update Organizations in Pipedrive.",
-			        "req":"true",
-			        "type":"TOGGLE",
-			        "id":"toggle1"
-			     }
-            ]
-         },
-         "card": {
-            "type" : "INPUT",
-            "params": [
-            	{  
-		         	"dispName":"When a customer is deleted in Chargebee",
-			        "req":"true",
-			        "type":"DROPDOWN",
-			        "id":"dropdown2",
-			        "allowedValues":{
-			           "option1":"Mark as Deleted",
-			           "option2":"Remove Customer",
-			           "option3":"Do Nothing"
-			        },
-		         	"defaultVal":"option3"
-		      	}
-            ]
-         },
          "id" : "check2"
       }
     ],
