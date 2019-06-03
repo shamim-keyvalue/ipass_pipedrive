@@ -5,6 +5,7 @@
             "type" : "PROCESSING",
             "processingText": "Syncing first 10 customers and their subscriptions",
             "request" : {
+               "type":"DOC_READY_GET_CARD",
                "apiEndPoint":{
                   "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_result.json",
                   "type":"GET"
