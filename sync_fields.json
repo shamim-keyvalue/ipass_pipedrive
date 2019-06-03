@@ -1,16 +1,12 @@
 {
+	"tilte": "sdpfidsjifdsjkl",
 	"cards" : [
 		{
 			"card": {
 				"type" : "TOGGLE_HIDE_INPUT",
-				"message":{
-					"message":"We have already mapped your customer and subscription fields from Chargebee to ActiveCampaign. You can map the custom fields you had created in Chargebee, by enabling this configuration",
-					"icon":"DANGER_INFO",
-					"messageLook":"DANGER"
-				},
 				"params": [
 					{		  
-						"dispName":"Map Custom fields from Chargebee to ActiveCampaign",
+						"dispName":"Sync more fields from Chargebee to Pipedrive",
 						"req":"true",
 						"type":"TOGGLE",
 						"id":"toggle2"
