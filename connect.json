@@ -44,7 +44,7 @@
 	   "advance":"true",
 	   "type":"INPUT",
 	   "apiEndPoint":{
-		"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/connect_resp.json",
+		"apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_activecampaign/master/mapping_step.json",
 		"type":"GET",
 	   	"headers":{
 			"Authorization":"sfsfsdffadssd",
