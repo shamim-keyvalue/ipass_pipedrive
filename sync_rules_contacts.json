@@ -22,36 +22,71 @@
          "card": {
             "type" : "INPUT",
             "params": [
-            	{		  
-		        	"dispName":"Allow Chargebee to create People in Pipedrive",
-                  	"desc":"By default, existing people, if any, will be updated with the changes made in Chargebee. Disable if you dont want chargebee to create People in Pipedrive",
-			        "req":"true",
-			        "type":"TOGGLE",
-			        "id":"toggle1"
-			     },
-		    {		  
-		        	"dispName":"Allow Chargebee to manage Organization in Pipedrive",
-                  	"desc":"By default, Chargebee customers will be synced as People in Pipedrive. Enable if you want to allow Chargebee to add people to Organization, and create and update Organizations in Pipedrive.",
-			        "req":"true",
-			        "type":"TOGGLE",
-			        "id":"toggle1"
-			     },
-            	{  
-		         	"dispName":"When a customer is deleted in Chargebee",
-			        "req":"true",
-			        "type":"DROPDOWN",
-			        "id":"dropdown2",
-			        "allowedValues":{
-			           "option1":"Mark as Deleted",
-			           "option2":"Remove Customer",
-			           "option3":"Do Nothing"
-			        },
-		         	"defaultVal":"option3"
-		      	}
-		    
+               {       
+               "dispName":"Allow Chargebee to create People in Pipedrive",
+                     "desc":"By default, existing people, if any, will be updated with the changes made in Chargebee. Disable if you dont want chargebee to create People in Pipedrive",
+                 "req":"true",
+                 "type":"TOGGLE",
+                 "id":"toggle1"
+              }
             ]
          },
          "id" : "check2"
+      },
+      {
+         "card": {
+            "type" : "TOGGLE_HIDE_INPUT",
+            "params": [
+               {       
+                  "dispName":"Allow Chargebee to manage Organization in Pipedrive",
+                  "desc":"By default, Chargebee customers will be synced as People in Pipedrive. Enable if you want to allow Chargebee to add people to Organization, and create and update Organizations in Pipedrive.",
+                  "req":"true",
+                  "type":"TOGGLE",
+                  "id":"toggle2"
+               },
+               {  
+                  "dispName":"Choose what you'd like to do when a customer is synced to Pipedrive",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown2",
+                 "allowedValues":{
+                    "option1":"Group using 'Organization' name",
+                    "option2":"Do Nothing"
+                 },
+                  "defaultVal":"option2"
+               },
+               {       
+                  "dispName":"Sync Account Hierarchies from Chargebee to Pipedrive",
+                  "desc":"By default, Chargebee customers will be synced as People in Pipedrive. Enable if you want to allow Chargebee to add people to Organization, and create and update Organizations in Pipedrive.",
+                  "req":"true",
+                  "type":"TOGGLE",
+                  "id":"toggle3"
+               },
+          
+            ]
+         },
+         "id" : "check3"
+      },
+      {
+         "card": {
+            "type" : "INPUT",
+            "params": [
+               {  
+                  "dispName":"When a customer is deleted in Chargebee",
+                 "req":"true",
+                 "type":"DROPDOWN",
+                 "id":"dropdown2",
+                 "allowedValues":{
+                    "option1":"Mark as Deleted",
+                    "option2":"Remove Customer",
+                    "option3":"Do Nothing"
+                 },
+                  "defaultVal":"option3"
+               }
+          
+            ]
+         },
+         "id" : "check4"
       }
     ],
    "proceed":{
