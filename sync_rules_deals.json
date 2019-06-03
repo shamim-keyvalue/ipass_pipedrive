@@ -99,7 +99,8 @@
                  "allowedValues":{
                     "option1":"Stage 1"
                  },
-                  "defaultVal":"option1"
+                  "defaultVal":"option1",
+                  "separatorReq":true
                },
                {  
                  "dispName":"Choose how you'd like to update deal value in Pipedrive",
