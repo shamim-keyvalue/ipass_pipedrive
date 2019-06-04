@@ -40,7 +40,7 @@
             "headers": {
                     "Elements-Formula-Instance-Id": "388894"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup"
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncFieldsSetup"
          }
       },
       {
