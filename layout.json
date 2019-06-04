@@ -26,7 +26,10 @@
          "stepId":"step_2",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_rules_deals.json"
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388733"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup"
          }
       },
       {
