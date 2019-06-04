@@ -15,7 +15,10 @@
          "stepId":"step_1",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/sync_rules_contacts.json"
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388728"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup"
          }
       },
       {
