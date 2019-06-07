@@ -13,7 +13,7 @@
             "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "activecampaign",
+              "integrationName": "pipedrive",
               "chargebeeElement": "14167",
               "thirdPartyElement": "228",
               "formula_SyncRulesContactsSetup": "26678",
