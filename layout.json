@@ -39,7 +39,11 @@
             "headers": {
                     "Elements-Formula-Instance-Id": "388728"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup"
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive"
+            }
          }
       },
       {
