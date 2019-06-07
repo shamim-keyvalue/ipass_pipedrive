@@ -23,7 +23,7 @@
                     "formula_SyncFieldsSetup": "26688",
                     "formula_SyncFieldsConfig": "26689",
                     "formula_ValidateSetup": "26739",
-                    "formula_ValidateIgnore": "",
+                    "formula_ValidateIgnore": "12345",
                     "formula_ValidateResult": "26736",
                     "formula_SyncCustomers": "26363",
                     "formula_SyncSubscription": "26185",
