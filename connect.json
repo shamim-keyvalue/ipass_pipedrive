@@ -7,28 +7,28 @@
          "stepId":"connect",
          "apiEndPoint": {
             "type": "GET",
-                "headers": {
-                    "Elements-Formula-Instance-Id": "389614"
-                },
-                "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
-                "input": {
-                    "siteDomain": "chargebee-labs.com",
-                    "integrationName": "activecampaign",
-                    "chargebeeElement": "14167",
-                    "thirdPartyElement": "228",
-                    "formula_SyncRulesContactsSetup": "26678",
-                    "formula_SyncRulesContactsConfig": "26680",
-                    "formula_SyncRulesDealsSetup": "26679",
-                    "formula_SyncRulesDealsConfig": "26687",
-                    "formula_SyncFieldsSetup": "26688",
-                    "formula_SyncFieldsConfig": "26689",
-                    "formula_ValidateSetup": "26739",
-                    "formula_ValidateIgnore": "12345",
-                    "formula_ValidateResult": "26736",
-                    "formula_SyncCustomers": "26363",
-                    "formula_SyncSubscription": "26185",
-                    "formula_SyncInvoice": "26310"
-                }
+            "headers": {
+               "Elements-Formula-Instance-Id": "389614"
+            },
+            "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "activecampaign",
+              "chargebeeElement": "14167",
+              "thirdPartyElement": "228",
+              "formula_SyncRulesContactsSetup": "26678",
+              "formula_SyncRulesContactsConfig": "26680",
+              "formula_SyncRulesDealsSetup": "26679",
+              "formula_SyncRulesDealsConfig": "26687",
+              "formula_SyncFieldsSetup": "26688",
+              "formula_SyncFieldsConfig": "26689",
+              "formula_ValidateSetup": "26739",
+              "formula_ValidateIgnore": "12345",
+              "formula_ValidateResult": "26736",
+              "formula_SyncCustomers": "26363",
+              "formula_SyncSubscription": "26185",
+              "formula_SyncInvoice": "26310"
+            }
          }
       },
       {
