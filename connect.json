@@ -1,59 +1,92 @@
 {
-    "contents":[
-    	"ActiveCampaign lets you send personalized messages, newsletters, automated follow-ups to customers. You can also customize messages, segment your contacts to automate emails, manage your pipelines, organize customer data, and more.",
-    	"By connecting Chargebee with ActiveCampaign, you can automatically synchronize your subscription data to ActiveCampaign. This will help you create customized campaigns targeting your customers. <a href=\"\" target=\"blank\">Learn more</a>"
-    ],
-    "docUrl":"",
-    "signupUrl":"",
-    "connect":{
-	"id":"credentials",
-	"display" : "Connect",
-	"icon" : "ARROW",
-        "buttonLook":"FILLED",
-	"type" : "POP_UP",
-	"popUp":{  
-	   "inputFields":[  
-	      {  
-		 "dispName":"Base Url",
-		 "req":"true",
-		 "type":"TEXT",
-		 "id":"text",
-		 "placeholder":"EG: ABC.ACTIVEHOSTED.COM "
-	      },
-	      {  
-		 "dispName":"API Secret",
-		 "req":"true",
-		 "type":"PASSWORD",
-		 "id":"password",
-		 "placeholder":"eg: 1233asfsdf23434343434"
-	      },
-	      {  
-		 "req":"true",
-		 "type":"CHECKBOX",
-		 "id":"checkbox1",
-		 "desc":"I'm aware that Active Campaign may store your customer and subscription data. Please refer to ActiveCampaign's Terms of Service, Consent Policy, and Privacy Policy."
-	      }
-	   ],
-	   "message":{
-	      "message":"You can get your Base URL and API secret from ActiveCampaign by navigating to Settings > Developer"
-	   },
-	   "title":"Connect to ActiveCampaign",
-	   "submitButton":"Connect",
-	   "cancelButton":"Dismiss",
-	   "description":"Specify your ActiveCampaign Base URL and API secret",
-	   "advance":"true",
-	   "type":"INPUT",
-	   "apiEndPoint":{
-		"apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json",
-		"type":"GET",
-	   	"headers":{
-			"Authorization":"sfsfsdffadssd",
-			"Elements-Formula-Instance-Id":"sfsfsdafsd"
-		},
-	   	"input":{
-			"id":"chargebee"
-		}
-	   }
-	}
-    }
+   "logo":"/third_party/cn-xero.png",
+   "integDispName":"Pipedrive",
+   "subStepList":[
+      {
+         "stepName":"Connect",
+         "stepId":"connect",
+         "apiEndPoint": {
+            "type": "GET",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "389614"
+                },
+                "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
+                "input": {
+                    "siteDomain": "chargebee-labs.com",
+                    "integrationName": "activecampaign",
+                    "chargebeeElement": "14167",
+                    "thirdPartyElement": "228",
+                    "formula_SyncRulesContactsSetup": "26678",
+                    "formula_SyncRulesContactsConfig": "26680",
+                    "formula_SyncRulesDealsSetup": "26679",
+                    "formula_SyncRulesDealsConfig": "26687",
+                    "formula_SyncFieldsSetup": "26688",
+                    "formula_SyncFieldsConfig": "26689",
+                    "formula_ValidateSetup": "26739",
+                    "formula_ValidateIgnore": "",
+                    "formula_ValidateResult": "26736",
+                    "formula_SyncCustomers": "26363",
+                    "formula_SyncSubscription": "26185",
+                    "formula_SyncInvoice": "26310"
+                }
+         }
+      },
+      {
+         "stepName":"Sync Rules for Contacts",
+         "stepId":"step_1",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388728"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup"
+         }
+      },
+      {
+         "stepName":"Sync Rules for Deals",
+         "stepId":"step_2",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388733"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup"
+         }
+      },
+      {
+         "stepName":"Sync Fields",
+         "stepId":"step_3",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388894"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncFieldsSetup"
+         }
+      },
+      {
+         "stepName":"Data Validation",
+         "stepId":"step_4",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/data_validation.json"
+         }
+      },
+      {
+         "stepName":"Run Initial Sync",
+         "stepId":"step_5",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/initial_sync_step.json"
+         }
+      },
+      {
+         "stepName":"Final step",
+         "stepId":"completed",
+         "apiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json"
+         }
+      }
+   ]
 }
