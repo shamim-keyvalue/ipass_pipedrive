@@ -74,7 +74,7 @@
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "389647"
+               "Elements-Formula-Instance-Id": "389995"
             },
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/validateSetup",
             "input": {
