@@ -26,6 +26,7 @@
               "formula_ValidateIgnore": "26818",
               "formula_ValidateResult": "26736",
               "formula_InitialSyncRun": "26851",
+              "formula_SyncDispatcher": "26905",
               "formula_SyncCustomers": "26363",
               "formula_SyncSubscription": "26185",
               "formula_SyncInvoice": "26310"
