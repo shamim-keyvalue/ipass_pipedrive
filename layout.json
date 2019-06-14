@@ -97,7 +97,9 @@
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/initialSyncRun",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "pipedrive"
+              "integrationName": "pipedrive",
+              "action": "default",
+              "initialSync": "true"
             }
          }
       },
