@@ -110,8 +110,30 @@
          "stepId":"completed",
          "apiEndPoint": {
             "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json"
-         }
+            "headers": {
+               "Elements-Formula-Instance-Id": "392390"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncProcessingCard",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive",
+              "action": "default",
+              "initialSync": "false",
+              "syncNow" : "syncNow"
+            }
+         },
+         "fullSyncApiEndPoint": {
+             "type":"GET",
+             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/fullSyncRun",
+             "headers": {
+                 "Elements-Formula-Instance-Id": "392564"
+             },
+             "input": {
+                 "integrationName": "pipedrive",
+                 "siteDomain": "chargebee-labs.com",
+                 "syncNow": "syncNow",
+             }
+          }
       }
    ]
 }
