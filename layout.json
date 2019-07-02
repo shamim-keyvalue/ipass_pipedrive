@@ -136,7 +136,7 @@
                 "display": "Manage sync rules",
                 "apiEndPoint": {
                     "type": "GET",
-                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/syncRulesContactsSetup",
+                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup",
                     "headers": {
                         "Elements-Formula-Instance-Id": "388728"
                     },
