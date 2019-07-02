@@ -130,7 +130,23 @@
                  "integrationName": "pipedrive",
                  "siteDomain": "chargebee-labs.com"
              }
-          }
+          },
+          "editConfig": {
+                "title": "Manage how Chargebee syncs data with Pipedrive",
+                "display": "Manage sync rules",
+                "apiEndPoint": {
+                    "type": "GET",
+                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/syncRulesContactsSetup",
+                    "headers": {
+                        "Elements-Formula-Instance-Id": "388728"
+                    },
+                    "input": {
+                        "integrationName": "pipedrive",
+                        "siteDomain": "chargebee-labs.com",
+                        "op": "edit"
+                    }
+                }
+            }
       }
    ]
 }
