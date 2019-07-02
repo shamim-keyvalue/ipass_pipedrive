@@ -136,9 +136,9 @@
                 "display": "Manage sync rules",
                 "apiEndPoint": {
                     "type": "GET",
-                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup",
+                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/manageSyncRules",
                     "headers": {
-                        "Elements-Formula-Instance-Id": "388728"
+                        "Elements-Formula-Instance-Id": "393176"
                     },
                     "input": {
                         "integrationName": "pipedrive",
