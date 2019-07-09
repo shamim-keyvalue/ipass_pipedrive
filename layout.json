@@ -31,11 +31,7 @@
               "formula_SyncDispatcher": "26905",
               "formula_SyncCustomers": "27440",
               "formula_SyncSubscription": "26908",
-              "formula_SyncInvoice": "26909",
-              "client_info": {
-                 "client_id": "833887fd6283fad0",
-                 "client_secret": "9f9e7f0c0b05e51c894d2718b81def12b22d0f31"
-              }
+              "formula_SyncInvoice": "26909"
             }
          }
       },
