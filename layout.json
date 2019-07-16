@@ -8,11 +8,11 @@
          "apiEndPoint": {
             "type": "GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "389614"
+               "Elements-Formula-Instance-Id": "389614",
+               "client_info":"{\"client_id\": \"833887fd6283fad0\",\"client_secret\": \"9f9e7f0c0b05e51c894d2718b81def12b22d0f31\"}",
             },
             "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
             "input": {
-              "client_info":"{\"client_id\": \"833887fd6283fad0\",\"client_secret\": \"9f9e7f0c0b05e51c894d2718b81def12b22d0f31\"}",
               "siteDomain": "chargebee-labs.com",
               "integrationName": "pipedrive",
               "chargebeeElement": "14167",
