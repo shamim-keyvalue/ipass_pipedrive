@@ -94,7 +94,7 @@
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "390239"
+               "Elements-Formula-Instance-Id": "395716"
             },
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/initialSyncRun",
             "input": {
