@@ -111,7 +111,7 @@
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "392390"
+               "Elements-Formula-Instance-Id": "395718"
             },
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncProcessingCard",
             "input": {
@@ -124,7 +124,7 @@
              "type":"GET",
              "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/fullSyncRun",
              "headers": {
-                 "Elements-Formula-Instance-Id": "392564"
+                 "Elements-Formula-Instance-Id": "395717"
              },
              "input": {
                  "integrationName": "pipedrive",
