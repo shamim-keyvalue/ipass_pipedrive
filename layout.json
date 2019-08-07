@@ -48,6 +48,16 @@
               "siteDomain": "chargebee-labs.com",
               "integrationName": "pipedrive"
             }
+         },
+         "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/getBackStep",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "396923"
+            },
+             "input": {
+              "integrationName": "pipedrive"
+            }
          }
       },
       {
@@ -59,6 +69,16 @@
                     "Elements-Formula-Instance-Id": "388733"
             },
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup"
+         },
+         "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/getBackStep",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "396923"
+            },
+             "input": {
+              "integrationName": "pipedrive"
+            }
          }
       },
       {
@@ -70,6 +90,16 @@
                     "Elements-Formula-Instance-Id": "388894"
             },
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncFieldsSetup"
+         },
+         "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/getBackStep",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "396923"
+            },
+             "input": {
+              "integrationName": "pipedrive"
+            }
          }
       },
       {
@@ -85,6 +115,16 @@
               "siteDomain": "chargebee-labs.com",
               "integrationName": "pipedrive",
               "retry" : "false"
+            }
+         },
+         "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/getBackStep",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "396923"
+            },
+             "input": {
+              "integrationName": "pipedrive"
             }
          }
       },
@@ -102,6 +142,16 @@
               "integrationName": "pipedrive",
               "action": "default",
               "initialSync": "true"
+            }
+         },
+         "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/getBackStep",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "396923"
+            },
+             "input": {
+              "integrationName": "pipedrive"
             }
          }
       },
