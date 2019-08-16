@@ -161,9 +161,9 @@
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "395718"
+               "Elements-Formula-Instance-Id": "395717"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncProcessingCard",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/fullSyncRun",
             "input": {
               "siteDomain": "chargebee-labs.com",
               "integrationName": "pipedrive",
