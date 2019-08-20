@@ -168,8 +168,7 @@
               "siteDomain": "chargebee-labs.com",
               "integrationName": "pipedrive",
               "initialSync": "false",
-              "isFromLayout" : "true",
-              "syncNow": "syncNow"
+              "isFromLayout" : "true"
             }
          },
          "fullSyncApiEndPoint": {
