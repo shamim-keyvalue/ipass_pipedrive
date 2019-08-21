@@ -46,7 +46,8 @@
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "pipedrive"
+              "integrationName": "pipedrive",
+              "OAuthProcessComplete" : "true"
             }
          },
          "backStepApiEndPoint": {
